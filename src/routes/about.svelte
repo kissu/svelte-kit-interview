@@ -1,4 +1,5 @@
 <script context="module">
+	import Button from 'svelma/src/components/Button.svelte';
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -20,6 +21,8 @@
 
 <div class="content">
 	<h1>About this app</h1>
+
+	<Button type="is-primary">tasty button !</Button>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the

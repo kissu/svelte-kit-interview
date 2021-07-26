@@ -1,4 +1,5 @@
 <script>
+  import 'bulma/css/bulma.css'
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
